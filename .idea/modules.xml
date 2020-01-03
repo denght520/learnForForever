@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/learn-client/learn-client.iml" filepath="$PROJECT_DIR$/learn-client/learn-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn-common/learn-common.iml" filepath="$PROJECT_DIR$/learn-common/learn-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn-core/learn-core.iml" filepath="$PROJECT_DIR$/learn-core/learn-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn-data/learn-data.iml" filepath="$PROJECT_DIR$/learn-data/learn-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn-web/learn-web.iml" filepath="$PROJECT_DIR$/learn-web/learn-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/learnForForever.iml" filepath="$PROJECT_DIR$/.idea/learnForForever.iml" />
+    </modules>
+  </component>
+</project>
