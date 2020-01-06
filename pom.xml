@@ -171,6 +171,18 @@
             </dependency>
 
             <dependency>
+                <groupId>org.apache.curator</groupId>
+                <artifactId>curator-framework</artifactId>
+                <version>${curator.framework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.curator</groupId>
+                <artifactId>curator-recipes</artifactId>
+                <version>${curator.framework.version}</version>
+            </dependency>
+
+            <dependency>
                 <groupId>com.bluewhale.seed</groupId>
                 <artifactId>seed-client</artifactId>
                 <version>1.0.5</version>
@@ -186,18 +198,6 @@
                 <groupId>com.bluewhale.seed</groupId>
                 <artifactId>seed-client</artifactId>
                 <version>${seed.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.apache.curator</groupId>
-                <artifactId>curator-framework</artifactId>
-                <version>${curator.framework.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.apache.curator</groupId>
-                <artifactId>curator-recipes</artifactId>
-                <version>${curator.framework.version}</version>
             </dependency>
 
         </dependencies>

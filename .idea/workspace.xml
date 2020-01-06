@@ -98,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/learn-core/src/main/java/com/learn/forever/core/service/impl/RedisServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-422">
-              <caret line="535" column="13" lean-forward="true" selection-start-line="535" selection-start-column="13" selection-end-line="535" selection-end-column="13" />
+            <state relative-caret-position="270">
+              <caret line="625" selection-start-line="625" selection-end-line="625" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#15996#15997#0" expanded="true" />
@@ -223,7 +223,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1400" />
@@ -589,7 +589,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578290210373" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578290780517" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/learn-data/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -686,7 +686,7 @@
       <workItem from="1578129216875" duration="70000" />
       <workItem from="1578129318774" duration="2653000" />
       <workItem from="1578131981026" duration="867000" />
-      <workItem from="1578275488797" duration="10310000" />
+      <workItem from="1578275488797" duration="11020000" />
     </task>
     <task id="LOCAL-00001" summary="项目搭建">
       <created>1578059922411</created>
@@ -713,7 +713,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29742000" />
+    <option name="totallyTimeSpent" value="30452000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -1077,8 +1077,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/learn-core/src/main/java/com/learn/forever/core/service/impl/RedisServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-422">
-          <caret line="535" column="13" lean-forward="true" selection-start-line="535" selection-start-column="13" selection-end-line="535" selection-end-column="13" />
+        <state relative-caret-position="270">
+          <caret line="625" selection-start-line="625" selection-end-line="625" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#15996#15997#0" expanded="true" />
