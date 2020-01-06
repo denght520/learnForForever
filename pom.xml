@@ -9,11 +9,11 @@
     <packaging>pom</packaging>
 
     <modules>
-        <module>learn-web</module>
+        <module>learn-client</module>
         <module>learn-common</module>
         <module>learn-core</module>
-        <module>learn-client</module>
         <module>learn-data</module>
+        <module>learn-web</module>
     </modules>
 
     <parent>
@@ -24,12 +24,46 @@
 
     <properties>
         <java.version>1.8</java.version>
+        <velocity.engine.core.version>2.0</velocity.engine.core.version>
+        <druid.spring.boot.version>1.1.21</druid.spring.boot.version>
+        <mysql.version>8.0.15</mysql.version>
+        <pagehelper.version>1.2.10</pagehelper.version>
+        <mybatis.version>3.2.0</mybatis.version>
+        <druid.version>1.1.10</druid.version>
+        <dubbo.version>2.7.3</dubbo.version>
+        <zookeeper.version>3.4.6</zookeeper.version>
+        <curator.framework.version>4.0.1</curator.framework.version>
+        <seed.version>1.0.5</seed.version>
+        <bw.common.version>1.1.32-SNAPSHOT</bw.common.version>
     </properties>
-
 
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.learn.forever</groupId>
+                <artifactId>learn-client</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.learn.forever</groupId>
+                <artifactId>learn-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.learn.forever</groupId>
+                <artifactId>learn-core</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.learn.forever</groupId>
+                <artifactId>learn-data</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
             <dependency>
                 <groupId>com.learn.forever</groupId>
                 <artifactId>learn-web</artifactId>
@@ -57,15 +91,116 @@
                     </exclusion>
                 </exclusions>
             </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>${druid.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis.version}</version>
+            </dependency>
+            <!-- mybatis plus 代码生成器依赖 -->
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-generator</artifactId>
+                <version>${mybatis.version}</version>
+            </dependency>
+            <!-- 模板引擎 -->
+            <dependency>
+                <groupId>org.apache.velocity</groupId>
+                <artifactId>velocity-engine-core</artifactId>
+                <version>${velocity.engine.core.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>druid-spring-boot-starter</artifactId>
+                <version>${druid.spring.boot.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>mysql</groupId>
+                <artifactId>mysql-connector-java</artifactId>
+                <version>${mysql.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.github.pagehelper</groupId>
+                <artifactId>pagehelper-spring-boot-starter</artifactId>
+                <version>${pagehelper.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.mybatis</groupId>
+                        <artifactId>mybatis</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <!-- dubbo依赖 -->
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-spring-boot-starter</artifactId>
+                <version>${dubbo.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.springframework</groupId>
+                        <artifactId>spring</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>javax.servlet</groupId>
+                        <artifactId>servlet-api</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>log4j</groupId>
+                        <artifactId>log4j</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.zookeeper</groupId>
+                <artifactId>zookeeper</artifactId>
+                <version>${zookeeper.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>log4j</groupId>
+                        <artifactId>log4j</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <dependency>
+                <groupId>com.bluewhale.seed</groupId>
+                <artifactId>seed-client</artifactId>
+                <version>1.0.5</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.bluewhale</groupId>
+                <artifactId>bw-common</artifactId>
+                <version>${bw.common.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.bluewhale.seed</groupId>
+                <artifactId>seed-client</artifactId>
+                <version>${seed.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.curator</groupId>
+                <artifactId>curator-framework</artifactId>
+                <version>${curator.framework.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.curator</groupId>
+                <artifactId>curator-recipes</artifactId>
+                <version>${curator.framework.version}</version>
+            </dependency>
+
         </dependencies>
     </dependencyManagement>
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.springframework.boot</groupId>
-                <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>
-        </plugins>
-    </build>
 
 </project>

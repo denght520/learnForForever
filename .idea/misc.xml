@@ -34,7 +34,12 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/learn-web/pom.xml" />
+        <option value="$PROJECT_DIR$/learn-client/pom.xml" />
+        <option value="$PROJECT_DIR$/learn-common/pom.xml" />
+        <option value="$PROJECT_DIR$/learn-core/pom.xml" />
+        <option value="$PROJECT_DIR$/learn-data/pom.xml" />
       </list>
     </option>
   </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>

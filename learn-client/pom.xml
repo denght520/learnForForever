@@ -10,6 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>learn-client</artifactId>
+    <packaging>jar</packaging>
 
-
+    <dependencies>
+        <dependency>
+            <groupId>com.bluewhale</groupId>
+            <artifactId>bw-common</artifactId>
+        </dependency>
+    </dependencies>
 </project>

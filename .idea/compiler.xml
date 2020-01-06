@@ -6,14 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="com.learn-client" />
+        <module name="com.learn-common" />
         <module name="learn-client" />
         <module name="learn-common" />
         <module name="learn-core" />
         <module name="learn-data" />
         <module name="learn-web" />
+        <module name="learn.data" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="com.learn-client" target="1.8" />
+      <module name="com.learn-common" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="learn" target="1.8" />
       <module name="learn-client" target="1.8" />
@@ -21,11 +26,14 @@
       <module name="learn-core" target="1.8" />
       <module name="learn-data" target="1.8" />
       <module name="learn-web" target="1.8" />
+      <module name="learn.data" target="1.8" />
       <module name="learnForForever" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="com.learn-client" options="-parameters" />
+      <module name="com.learn-common" options="-parameters" />
       <module name="demo" options="-parameters" />
       <module name="learn" options="-parameters" />
       <module name="learn-client" options="-parameters" />
@@ -33,6 +41,7 @@
       <module name="learn-core" options="-parameters" />
       <module name="learn-data" options="-parameters" />
       <module name="learn-web" options="-parameters" />
+      <module name="learn.data" options="-parameters" />
       <module name="learnForForever" options="-parameters" />
     </option>
   </component>
