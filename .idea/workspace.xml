@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="fd80ac6c-b664-48e6-9c6a-b2817b4d1058" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learn-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learn-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-web/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/learn-web/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-web/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/learn-web/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/learn-core/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -13,55 +18,34 @@
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
-    <option name="LAST_RESOgit LUTION" value="IGNORE" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learn-core/src/main/java/com/learn/forever/core/spi/SeedSpi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learn-web/src/main/java/com/learn/forever/web/controller/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="29" column="17" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learn-core/src/main/java/com/learn/forever/core/service/RedisService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="206" selection-start-line="206" selection-end-line="206" />
+            <state relative-caret-position="210">
+              <caret line="89" column="48" selection-start-line="89" selection-start-column="48" selection-end-line="89" selection-end-column="48" />
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learn-core/src/main/java/com/learn/forever/core/config/RedisAutoConfiguration.java">
+        <entry file="file://$PROJECT_DIR$/learn-web/src/main/resources/application.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="24" column="37" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="37" />
+            <state relative-caret-position="-44">
+              <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learn-core/src/main/java/com/learn/forever/core/mq/consumer/MessagerListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="370">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,14 +54,39 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learn-core/src/main/java/com/learn/forever/core/service/impl/RedisServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/learn-core/src/main/java/com/learn/forever/core/mq/Producer/MessageProducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="625" selection-start-line="625" selection-end-line="625" />
+            <state relative-caret-position="370">
+              <caret line="51" column="7" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#15996#15997#0" expanded="true" />
-                <element signature="e#16054#16055#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/learn-web/src/test/java/com/learn/forever/BaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learn-web/learn-web.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-common/4.6.0/rocketmq-common-4.6.0.jar!/org/apache/rocketmq/common/message/Message.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="358">
+              <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
+              <folding>
+                <element signature="e#2881#2882#0" expanded="true" />
+                <element signature="e#2927#2928#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -86,29 +95,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/learn-web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
+            <state relative-caret-position="120">
+              <caret line="29" column="45" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="48" />
             </state>
           </provider>
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learn-client/src/main/java/com/learn/forever/client/package-info.java">
+        <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-test/2.2.2.RELEASE/spring-boot-starter-test-2.2.2.RELEASE.pom">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-            </state>
+            <state relative-caret-position="-1650" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.2.3.RELEASE/spring-data-redis-2.2.3.RELEASE-sources.jar!/org/springframework/data/redis/connection/RedisListCommands.java">
+        <entry file="file://$PROJECT_DIR$/learn-core/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="88" column="13" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
+            <state relative-caret-position="990">
+              <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
             </state>
           </provider>
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
     </leaf>
@@ -120,9 +128,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/learn-core/pom.xml" />
+        <option value="$PROJECT_DIR$/learn-core/src/main/java/com/learn/forever/core/config/MQConfiguration.java" />
+        <option value="$PROJECT_DIR$/learn-web/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/learn-core/src/main/java/com/learn/forever/core/mq/consumer/MessagerListener.java" />
+        <option value="$PROJECT_DIR$/learn-core/src/main/java/com/learn/forever/core/mq/Producer/MessageProducer.java" />
+        <option value="$PROJECT_DIR$/learn-web/src/test/java/com/learn/forever/BaseTest.java" />
+        <option value="$PROJECT_DIR$/learn-web/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
@@ -166,6 +184,12 @@
       <select />
     </treeState>
   </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1400" />
+    <option name="height" value="660" />
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -182,7 +206,139 @@
             <path>
               <item name="learnForForever" type="b2602c69:ProjectViewProjectNode" />
               <item name="learnForForever" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="learn-core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnForForever" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnForForever" type="462c0819:PsiDirectoryNode" />
+              <item name="learn-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnForForever" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnForForever" type="462c0819:PsiDirectoryNode" />
+              <item name="learn-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnForForever" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnForForever" type="462c0819:PsiDirectoryNode" />
+              <item name="learn-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnForForever" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnForForever" type="462c0819:PsiDirectoryNode" />
+              <item name="learn-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnForForever" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnForForever" type="462c0819:PsiDirectoryNode" />
+              <item name="learn-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnForForever" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnForForever" type="462c0819:PsiDirectoryNode" />
+              <item name="learn-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="forever" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnForForever" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnForForever" type="462c0819:PsiDirectoryNode" />
+              <item name="learn-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="forever" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnForForever" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnForForever" type="462c0819:PsiDirectoryNode" />
+              <item name="learn-core" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="forever" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnForForever" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnForForever" type="462c0819:PsiDirectoryNode" />
+              <item name="learn-web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnForForever" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnForForever" type="462c0819:PsiDirectoryNode" />
+              <item name="learn-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnForForever" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnForForever" type="462c0819:PsiDirectoryNode" />
+              <item name="learn-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnForForever" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnForForever" type="462c0819:PsiDirectoryNode" />
+              <item name="learn-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnForForever" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnForForever" type="462c0819:PsiDirectoryNode" />
+              <item name="learn-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnForForever" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnForForever" type="462c0819:PsiDirectoryNode" />
+              <item name="learn-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learnForForever" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learnForForever" type="462c0819:PsiDirectoryNode" />
+              <item name="learn-web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="learn" type="462c0819:PsiDirectoryNode" />
+              <item name="forever" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -193,7 +349,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578291455702" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578300113889" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -207,7 +369,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DemoApplication">
+  <component name="RunManager" selected="JUnit.BaseTest.mq发送测试">
     <configuration name="MysqlGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -219,6 +381,22 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BaseTest.mq发送测试" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="learn-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.learn.forever.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.learn.forever" />
+      <option name="MAIN_CLASS_NAME" value="com.learn.forever.BaseTest" />
+      <option name="METHOD_NAME" value="mq发送测试" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -239,6 +417,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BaseTest.mq发送测试" />
         <item itemvalue="Application.MysqlGenerator" />
       </list>
     </recent_temporary>
@@ -292,10 +471,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109000" />
+    <option name="totallyTimeSpent" value="7296000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24664879" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -315,7 +495,7 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Version Control" order="12" />
       <window_info anchor="bottom" id="MyBatis Log" order="13" />
@@ -334,5 +514,191 @@
       <window_info anchor="right" id="Theme Preview" order="9" />
       <window_info anchor="right" id="Bean Validation" order="10" weight="0.3297587" />
     </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-core/src/main/java/com/learn/forever/core/service/impl/RedisServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="145" column="26" selection-start-line="145" selection-start-column="16" selection-end-line="145" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#15996#15997#0" expanded="true" />
+            <element signature="e#16054#16055#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-web/src/main/java/com/learn/forever/web/controller/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="29" column="17" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-core/src/main/java/com/learn/forever/core/service/impl/SeedSpiImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-core/src/main/java/com/learn/forever/core/service/RedisService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/2.2.2.RELEASE/spring-boot-dependencies-2.2.2.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="393" column="6" selection-start-line="393" selection-start-column="6" selection-end-line="393" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-core/src/main/java/com/learn/forever/core/config/RedisAutoConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="24" column="37" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/consumer/listener/ConsumeOrderlyContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="12" column="46" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-client/src/main/java/com/learn/forever/client/package-info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-core/src/main/java/com/learn/forever/core/config/MQConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="76" column="32" selection-start-line="76" selection-start-column="15" selection-end-line="76" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1845#1846#0" expanded="true" />
+            <element signature="e#1889#1890#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-web/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-44">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-core/src/main/java/com/learn/forever/core/mq/consumer/MessagerListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-redis/2.2.3.RELEASE/spring-data-redis-2.2.3.RELEASE-sources.jar!/org/springframework/data/redis/connection/RedisListCommands.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="88" column="13" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-common/4.6.0/rocketmq-common-4.6.0.jar!/org/apache/rocketmq/common/message/Message.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="105" column="16" selection-start-line="105" selection-start-column="16" selection-end-line="105" selection-end-column="16" />
+          <folding>
+            <element signature="e#2881#2882#0" expanded="true" />
+            <element signature="e#2927#2928#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/rocketmq/rocketmq-client/4.6.0/rocketmq-client-4.6.0.jar!/org/apache/rocketmq/client/producer/DefaultMQProducer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-core/src/main/java/com/learn/forever/core/mq/Producer/MessageProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="51" column="7" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-web/learn-web.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="89" column="48" selection-start-line="89" selection-start-column="48" selection-end-line="89" selection-end-column="48" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-test/2.2.2.RELEASE/spring-boot-starter-test-2.2.2.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1650" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="29" column="45" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="48" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/learn-web/src/test/java/com/learn/forever/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

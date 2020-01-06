@@ -45,3 +45,15 @@ dubbo:
   consumer:
     check: false
     version: 1.0.0
+
+rocketmq:
+  namesrvAddr: namesrv1.bw365.net:9876;namesrv2.bw365.net:9876
+  consumer:
+    group: learn-for-forever-consumer-group
+  producer:
+    group: learn-for-forever-producer-group
+    retryTimes: 3
+  order:
+    consumer:
+      topic: topic_order_detail
+      tags: tag_order_settle_ready
