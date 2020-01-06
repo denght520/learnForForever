@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a711739-4df4-4492-b5a2-bc32e5c57288" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/learn-client/src/main/java/com/learn/forever/client/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-common/src/main/java/com/learn/forever/common/utils/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-core/src/main/java/com/learn/forever/core/config/RedisAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-core/src/main/java/com/learn/forever/core/service/RedisService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-core/src/main/java/com/learn/forever/core/service/impl/RedisServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-core/src/main/java/com/learn/forever/core/service/impl/SeedSpiImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-core/src/main/java/com/learn/forever/core/service/impl/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-core/src/main/java/com/learn/forever/core/service/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-core/src/main/java/com/learn/forever/core/spi/SeedSpi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-data/src/main/java/com/learn/forever/data/MysqlGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-data/src/main/java/com/learn/forever/data/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-data/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-web/src/main/java/com/learn/forever/web/controller/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-web/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learn-client/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-client/src/main/java/learn/forever/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-common/src/main/java/com/learn/forever/utils/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learn-core/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-core/src/main/java/com/learn/forever/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learn-data/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-data/src/main/java/learn/forever/package-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/learn-web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-web/src/main/java/com/learn/forever/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/learn-web/src/main/java/com/learn/forever/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-web/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/learn-web/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-web/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-web/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/learn-web/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9a711739-4df4-4492-b5a2-bc32e5c57288" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/learn/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/learn-web/target/" />
@@ -130,8 +98,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/learn-core/src/main/java/com/learn/forever/core/service/impl/RedisServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="618" column="5" lean-forward="true" selection-start-line="618" selection-start-column="5" selection-end-line="618" selection-end-column="5" />
+            <state relative-caret-position="-422">
+              <caret line="535" column="13" lean-forward="true" selection-start-line="535" selection-start-column="13" selection-end-line="535" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#15996#15997#0" expanded="true" />
@@ -255,7 +223,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1400" />
@@ -621,7 +589,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578284136179" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578290210373" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/learn-data/pom.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -718,7 +686,7 @@
       <workItem from="1578129216875" duration="70000" />
       <workItem from="1578129318774" duration="2653000" />
       <workItem from="1578131981026" duration="867000" />
-      <workItem from="1578275488797" duration="8551000" />
+      <workItem from="1578275488797" duration="10310000" />
     </task>
     <task id="LOCAL-00001" summary="项目搭建">
       <created>1578059922411</created>
@@ -734,17 +702,23 @@
       <option name="project" value="LOCAL" />
       <updated>1578060475465</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="项目搭建">
+      <created>1578284157981</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578284157982</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27983000" />
+    <option name="totallyTimeSpent" value="29742000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24664879" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24664879" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -760,7 +734,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
@@ -1103,8 +1077,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/learn-core/src/main/java/com/learn/forever/core/service/impl/RedisServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="618" column="5" lean-forward="true" selection-start-line="618" selection-start-column="5" selection-end-line="618" selection-end-column="5" />
+        <state relative-caret-position="-422">
+          <caret line="535" column="13" lean-forward="true" selection-start-line="535" selection-start-column="13" selection-end-line="535" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#15996#15997#0" expanded="true" />

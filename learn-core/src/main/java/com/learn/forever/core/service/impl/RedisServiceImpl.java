@@ -623,4 +623,5 @@ public class RedisServiceImpl implements RedisService {
         Set<String> set = redisTemplate.keys(keys + "*");
         redisTemplate.delete(set);
     }
+
 }
