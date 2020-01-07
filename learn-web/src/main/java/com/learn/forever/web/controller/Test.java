@@ -4,6 +4,7 @@ import com.learn.forever.core.service.RedisService;
 import com.learn.forever.core.spi.SeedSpi;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -29,6 +30,9 @@ public class Test {
     @Autowired
     private SeedSpi seedSpi;
 
+    @Value("${test.value}")
+    private Integer testValue;
+
     @Autowired
     private RedisService redisService;
 
@@ -41,5 +45,8 @@ public class Test {
         return idTest;
     }
 
-
+    @GetMapping("testValue")
+    public Object test1(){
+        return testValue;
+    }
 }

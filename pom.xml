@@ -32,10 +32,13 @@
         <druid.version>1.1.10</druid.version>
         <dubbo.version>2.7.3</dubbo.version>
         <zookeeper.version>3.4.6</zookeeper.version>
-        <curator.framework.version>4.0.1</curator.framework.version>
+        <curator.framework.version>2.13.0</curator.framework.version>
         <seed.version>1.0.5</seed.version>
         <bw.common.version>1.1.32-SNAPSHOT</bw.common.version>
         <rocketmq.client.version>4.6.0</rocketmq.client.version>
+        <seed.version>1.0.5</seed.version>
+        <apollo.client.version>1.4.0</apollo.client.version>
+        <elastic.job.version>2.1.5</elastic.job.version>
     </properties>
 
 
@@ -81,17 +84,6 @@
                 <artifactId>lombok</artifactId>
                 <optional>true</optional>
             </dependency>
-            <!--<dependency>-->
-                <!--<groupId>org.springframework.boot</groupId>-->
-                <!--<artifactId>spring-boot-starter-test</artifactId>-->
-                <!--<scope>test</scope>-->
-                <!--<exclusions>-->
-                    <!--<exclusion>-->
-                        <!--<groupId>org.junit.vintage</groupId>-->
-                        <!--<artifactId>junit-vintage-engine</artifactId>-->
-                    <!--</exclusion>-->
-                <!--</exclusions>-->
-            <!--</dependency>-->
             <dependency>
                 <groupId>com.alibaba</groupId>
                 <artifactId>druid-spring-boot-starter</artifactId>
@@ -186,7 +178,7 @@
             <dependency>
                 <groupId>com.bluewhale.seed</groupId>
                 <artifactId>seed-client</artifactId>
-                <version>1.0.5</version>
+                <version>${seed.version}</version>
             </dependency>
 
             <dependency>
@@ -205,6 +197,24 @@
                 <groupId>org.apache.rocketmq</groupId>
                 <artifactId>rocketmq-client</artifactId>
                 <version>${rocketmq.client.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.ctrip.framework.apollo</groupId>
+                <artifactId>apollo-client</artifactId>
+                <version>${apollo.client.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>com.google.guava</groupId>
+                        <artifactId>guava</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
+            <dependency>
+                <groupId>com.dangdang</groupId>
+                <artifactId>elastic-job-lite-spring</artifactId>
+                <version>${elastic.job.version}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>

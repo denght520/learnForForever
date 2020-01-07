@@ -19,12 +19,12 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     # 使用druid连接池
     type: com.alibaba.druid.pool.DruidDataSource
-    url: 127.0.0.1
+    url:
     username: root
-    password: root
+    password: Bw888888
   redis:
     cluster:
-      nodes: 127.0.0.1:6379
+      nodes:
       max-redirects: 3
     timeout: 2000
     password: 12345678
@@ -39,7 +39,7 @@ dubbo:
     name: dubbo
   registry:
     port: 55555
-    address: zookeeper://127.0.0.1
+    address:
   provider:
     version: 1.0.0
   consumer:
@@ -47,7 +47,7 @@ dubbo:
     version: 1.0.0
 
 rocketmq:
-  namesrvAddr: 127.0.0.1:2222
+  namesrvAddr:
   consumer:
     group: learn-for-forever-consumer-group
   producer:
@@ -57,3 +57,14 @@ rocketmq:
     consumer:
       topic: topic_order_detail
       tags: tag_order_settle_ready
+
+app:
+  id: learn-for-forever
+apollo:
+  bootstrap:
+    enabled: true
+#    namespaces: bw-backend.zookeeper,bw-backend.rocketmq
+
+#zookeeperAddress: zk1.bw365.net:2181?backup=zk2.bw365.net:2181,zk3.bw365.net:2181
+#
+#nameSpace: bw-job
