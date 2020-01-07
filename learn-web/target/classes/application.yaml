@@ -19,9 +19,9 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     # 使用druid连接池
     type: com.alibaba.druid.pool.DruidDataSource
-    url: jdbc:mysql://mi1.bw365.net:3306/bw_union?useUnicode=true&amp;characterEncoding=UTF-8&amp;zeroDateTimeBehavior=convertToNull&amp;useSSL=false&amp;serverTimezone=Asia/Shanghai
-    username: rd
-    password: bw888888
+    url: jdbc:mysql://mi1.bw365.net:3306/bw_union?useUnicode=true&characterEncoding=UTF-8&zeroDateTimeBehavior=convertToNull&useSSL=false&serverTimezone=Asia/Shanghai
+    username: root
+    password: Bw888888
   redis:
     cluster:
       nodes: 192.168.27.11:8001,192.168.27.11:8002,192.168.27.12:8001,192.168.27.12:8002,192.168.27.13:8001,192.168.27.13:8002
@@ -57,3 +57,14 @@ rocketmq:
     consumer:
       topic: topic_order_detail
       tags: tag_order_settle_ready
+
+app:
+  id: learn-for-forever
+apollo:
+  bootstrap:
+    enabled: true
+#    namespaces: bw-backend.zookeeper,bw-backend.rocketmq
+
+#zookeeperAddress: zk1.bw365.net:2181?backup=zk2.bw365.net:2181,zk3.bw365.net:2181
+#
+#nameSpace: bw-job

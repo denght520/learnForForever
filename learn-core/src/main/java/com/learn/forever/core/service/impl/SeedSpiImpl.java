@@ -3,7 +3,7 @@ package com.learn.forever.core.service.impl;
 import com.bluewhale.seed.client.SeedRpc;
 import com.learn.forever.core.spi.SeedSpi;
 import org.apache.dubbo.config.annotation.Reference;
-import org.apache.dubbo.config.annotation.Service;
+import org.springframework.stereotype.Service;
 
 /**
  * @projectName: learnForForever
