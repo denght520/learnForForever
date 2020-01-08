@@ -32,7 +32,7 @@
         <mybatis.version>3.2.0</mybatis.version>
         <druid.version>1.1.10</druid.version>
         <dubbo.version>2.7.3</dubbo.version>
-        <zookeeper.version>3.4.6</zookeeper.version>
+        <zookeeper.version>3.4.14</zookeeper.version>
         <curator.framework.version>2.13.0</curator.framework.version>
         <seed.version>1.0.5</seed.version>
         <bw.common.version>1.1.32-SNAPSHOT</bw.common.version>
