@@ -14,6 +14,7 @@
         <module>learn-core</module>
         <module>learn-data</module>
         <module>learn-web</module>
+        <module>learn-netty</module>
     </modules>
 
     <parent>

@@ -12,6 +12,7 @@
         <module name="learn-common" />
         <module name="learn-core" />
         <module name="learn-data" />
+        <module name="learn-netty" />
         <module name="learn-web" />
         <module name="learn.data" />
       </profile>
@@ -25,6 +26,7 @@
       <module name="learn-common" target="1.8" />
       <module name="learn-core" target="1.8" />
       <module name="learn-data" target="1.8" />
+      <module name="learn-netty" target="1.8" />
       <module name="learn-web" target="1.8" />
       <module name="learn.data" target="1.8" />
       <module name="learnForForever" target="1.8" />
@@ -40,6 +42,7 @@
       <module name="learn-common" options="-parameters" />
       <module name="learn-core" options="-parameters" />
       <module name="learn-data" options="-parameters" />
+      <module name="learn-netty" options="-parameters" />
       <module name="learn-web" options="-parameters" />
       <module name="learn.data" options="-parameters" />
       <module name="learnForForever" options="-parameters" />
