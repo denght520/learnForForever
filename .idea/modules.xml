@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/learn-common/learn-common.iml" filepath="$PROJECT_DIR$/learn-common/learn-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/learn-core/learn-core.iml" filepath="$PROJECT_DIR$/learn-core/learn-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/learn-data/learn-data.iml" filepath="$PROJECT_DIR$/learn-data/learn-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn-es/learn-es.iml" filepath="$PROJECT_DIR$/learn-es/learn-es.iml" />
       <module fileurl="file://$PROJECT_DIR$/learn-netty/learn-netty.iml" filepath="$PROJECT_DIR$/learn-netty/learn-netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/learn-web/learn-web.iml" filepath="$PROJECT_DIR$/learn-web/learn-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/learnForForever.iml" filepath="$PROJECT_DIR$/.idea/learnForForever.iml" />

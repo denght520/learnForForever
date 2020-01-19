@@ -38,6 +38,8 @@
         <option value="$PROJECT_DIR$/learn-common/pom.xml" />
         <option value="$PROJECT_DIR$/learn-core/pom.xml" />
         <option value="$PROJECT_DIR$/learn-data/pom.xml" />
+        <option value="$PROJECT_DIR$/learn-es/pom.xml" />
+        <option value="$PROJECT_DIR$/learn-netty/pom.xml" />
       </list>
     </option>
   </component>
