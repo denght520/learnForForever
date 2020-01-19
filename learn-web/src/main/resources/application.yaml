@@ -20,14 +20,21 @@ spring:
     # 使用druid连接池
     type: com.alibaba.druid.pool.DruidDataSource
     url:
-    username: root
-    password: Bw888888
+    username:
+    password:
   redis:
     cluster:
       nodes:
       max-redirects: 3
     timeout: 2000
     password: 12345678
+  data:
+    elasticsearch:
+      cluster-nodes:
+      cluster-name: my-application
+      repositories:
+        enabled: true
+
 
 dubbo:
   application:
@@ -63,8 +70,13 @@ app:
 apollo:
   bootstrap:
     enabled: true
-#    namespaces: bw-backend.zookeeper,bw-backend.rocketmq
 
-#zookeeperAddress: zk1.bw365.net:2181?backup=zk2.bw365.net:2181,zk3.bw365.net:2181
+zkAddress:
+zkPort:
+
+#zookeeperAddress: zk1.bw365.net:2181,zk2.bw365.net:2181,zk3.bw365.net:2181
 #
 #nameSpace: bw-job
+#
+#test.value: 22
+

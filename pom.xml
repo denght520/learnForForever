@@ -11,10 +11,11 @@
     <modules>
         <module>learn-client</module>
         <module>learn-common</module>
+        <module>learn-es</module>
         <module>learn-core</module>
+        <module>learn-netty</module>
         <module>learn-data</module>
         <module>learn-web</module>
-        <module>learn-netty</module>
     </modules>
 
     <parent>
@@ -40,6 +41,9 @@
         <seed.version>1.0.5</seed.version>
         <apollo.client.version>1.4.0</apollo.client.version>
         <elastic.job.version>2.1.5</elastic.job.version>
+        <poi.version>3.9</poi.version>
+        <image.version>1.0.0-SNAPSHOT</image.version>
+        <jcl.slf4j.version>1.7.26</jcl.slf4j.version>
     </properties>
 
 
@@ -54,6 +58,12 @@
             <dependency>
                 <groupId>com.learn.forever</groupId>
                 <artifactId>learn-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.learn.forever</groupId>
+                <artifactId>learn-es</artifactId>
                 <version>${project.version}</version>
             </dependency>
 
@@ -76,8 +86,19 @@
             </dependency>
 
             <dependency>
+                <groupId>com.bluewhale.image</groupId>
+                <artifactId>image-client</artifactId>
+                <version>${image.version}</version>
+            </dependency>
+
+            <dependency>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-starter</artifactId>
+            </dependency>
+
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
             </dependency>
 
             <dependency>
@@ -189,12 +210,6 @@
             </dependency>
 
             <dependency>
-                <groupId>com.bluewhale.seed</groupId>
-                <artifactId>seed-client</artifactId>
-                <version>${seed.version}</version>
-            </dependency>
-
-            <dependency>
                 <groupId>org.apache.rocketmq</groupId>
                 <artifactId>rocketmq-client</artifactId>
                 <version>${rocketmq.client.version}</version>
@@ -217,7 +232,52 @@
                 <artifactId>elastic-job-lite-spring</artifactId>
                 <version>${elastic.job.version}</version>
             </dependency>
+
+            <dependency>
+                <groupId>org.elasticsearch.plugin</groupId>
+                <artifactId>transport-netty3-client</artifactId>
+                <version>5.6.10</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.sensorsdata.analytics.javasdk</groupId>
+                <artifactId>SensorsAnalyticsSDK</artifactId>
+                <version>3.1.15</version>
+            </dependency>
+
+            <!-- poi office start-->
+            <!--<dependency>-->
+                <!--<groupId>org.apache.poi</groupId>-->
+                <!--<artifactId>poi</artifactId>-->
+                <!--<version>${poi.version}</version>-->
+            <!--</dependency>-->
+            <!--<dependency>-->
+                <!--<groupId>org.apache.poi</groupId>-->
+                <!--<artifactId>poi-ooxml</artifactId>-->
+                <!--<version>${poi.version}</version>-->
+            <!--</dependency>-->
+            <!--<dependency>-->
+                <!--<groupId>org.apache.poi</groupId>-->
+                <!--<artifactId>poi-ooxml-schemas</artifactId>-->
+                <!--<version>${poi.version}</version>-->
+            <!--</dependency>-->
+            <!-- poi office end -->
+
+            <!-- logback+slf4j -->
+            <!--<dependency>-->
+                <!--<groupId>org.slf4j</groupId>-->
+                <!--<artifactId>jcl-over-slf4j</artifactId>-->
+                <!--<version>${jcl.slf4j.version}</version>-->
+            <!--</dependency>-->
+
+            <!--<dependency>-->
+                <!--<groupId>ch.qos.logback</groupId>-->
+                <!--<artifactId>logback-core</artifactId>-->
+                <!--<version>${logback.version}</version>-->
+            <!--</dependency>-->
+
         </dependencies>
+
     </dependencyManagement>
 
 </project>
