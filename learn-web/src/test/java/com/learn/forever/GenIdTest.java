@@ -2,6 +2,9 @@ package com.learn.forever;
 
 import com.learn.forever.client.GenIdRpc;
 import jdk.nashorn.internal.ir.annotations.Reference;
+import org.apache.commons.lang3.StringUtils;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.util.EntityUtils;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 
@@ -24,5 +27,10 @@ public class GenIdTest extends BaseTest{
     public void 主键生成测试(){
         Long test = genIdRpc.getId("test");
         System.out.println(test);
+    }
+
+    @Test
+    public void 测试url(){
+
     }
 }
