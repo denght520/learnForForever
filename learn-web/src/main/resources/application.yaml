@@ -19,12 +19,12 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     # 使用druid连接池
     type: com.alibaba.druid.pool.DruidDataSource
-    url:
-    username:
-    password:
+    url: jdbc:mysql://mi1.bw365.net:3306/bw_union?useUnicode=true&amp;characterEncoding=UTF-8&amp;zeroDateTimeBehavior=convertToNull&amp;useSSL=false&amp;serverTimezone=Asia/Shanghai
+    username: rd
+    password: bw888888
   redis:
     cluster:
-      nodes:
+      nodes: 192.168.27.11:8001,192.168.27.11:8002,192.168.27.12:8001,192.168.27.12:8002,192.168.27.13:8001,192.168.27.13:8002
       max-redirects: 3
     timeout: 2000
     password: 12345678
@@ -46,7 +46,7 @@ dubbo:
     name: dubbo
   registry:
     port: 55555
-    address:
+    address: zookeeper://zk1.bw365.net:2181?backup=zk2.bw365.net:2181,zk3.bw365.net:2181
   provider:
     version: 1.0.0
   consumer:
@@ -54,7 +54,7 @@ dubbo:
     version: 1.0.0
 
 rocketmq:
-  namesrvAddr:
+  namesrvAddr: namesrv1.bw365.net:9876;namesrv2.bw365.net:9876
   consumer:
     group: learn-for-forever-consumer-group
   producer:
@@ -71,8 +71,8 @@ apollo:
   bootstrap:
     enabled: true
 
-zkAddress:
-zkPort:
+zkAddress: zk1.bw365.net
+zkPort: 2128
 
 #zookeeperAddress: zk1.bw365.net:2181,zk2.bw365.net:2181,zk3.bw365.net:2181
 #
