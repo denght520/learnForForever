@@ -14,7 +14,7 @@ import java.lang.reflect.Type;
  * @className：ToStringSerializer
  * @date 2019/5/23 16:52
  * @E-mail:yangwangsen@oxyzgroup.com
- * @Copyright: 版权所有 (C) 2019 蓝鲸淘.
+ * @Copyright: 版权所有 (C) 2019 蓝
  * @return
  */
 public class ToStringSerializer implements ObjectSerializer {

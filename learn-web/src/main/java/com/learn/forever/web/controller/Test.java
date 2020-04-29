@@ -3,10 +3,13 @@ package com.learn.forever.web.controller;
 import com.bluewhale.dto.ResultDTO;
 import com.bluewhale.image.client.ImageRpc;
 import com.bluewhale.image.client.domain.resp.ImageDTO;
-import com.learn.forever.web.utils.ExcelUtils;
-import com.learn.forever.core.annotation.NotNull;
+import com.learn.forever.client.GenIdRpc;
+import com.learn.forever.common.exception.LearnException;
+import com.learn.forever.common.utils.ParameterUtils;
 import com.learn.forever.core.service.RedisService;
 import com.learn.forever.core.spi.SeedSpi;
+import com.learn.forever.core.template.AbstractResultTemplate;
+import com.learn.forever.web.utils.ExcelUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.dubbo.config.annotation.Reference;
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
@@ -17,7 +20,6 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -49,6 +51,9 @@ public class Test {
     @Value("${test.value}")
     private Integer testValue;
 
+    @Autowired
+    private GenIdRpc genIdRpc;
+
     @Reference
     private ImageRpc imageRpc;
 
@@ -59,7 +64,7 @@ public class Test {
 
     @GetMapping("test")
     public Object test(){
-        Long id = seedSpi.getId();
+        Long id = genIdRpc.getId("test");
         log.info("[===============>id= {}]", id);
         redisService.set("idTest", id.toString());
         String idTest = redisService.get("idTest");
@@ -69,6 +74,23 @@ public class Test {
     @GetMapping("testValue")
     public Object test1(){
         return testValue;
+    }
+
+    @GetMapping("template")
+    public Object template(String id){
+        return new AbstractResultTemplate<Void>() {
+            @Override
+            public void checkParam() throws LearnException {
+                ParameterUtils.checkEmpty(id, "id不能为空");
+
+            }
+
+            @Override
+            public Void bizExecute() throws Exception {
+
+                return null;
+            }
+        }.executeApi(id);
     }
 
     @GetMapping("exportItem")

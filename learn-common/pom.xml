@@ -14,5 +14,9 @@
 
     <dependencies>
 
+        <dependency>
+            <groupId>com.bluewhale</groupId>
+            <artifactId>bw-common</artifactId>
+        </dependency>
     </dependencies>
 </project>
