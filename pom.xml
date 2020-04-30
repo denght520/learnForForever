@@ -44,6 +44,7 @@
         <poi.version>3.9</poi.version>
         <image.version>1.0.0-SNAPSHOT</image.version>
         <jcl.slf4j.version>1.7.26</jcl.slf4j.version>
+        <es.version>6.7.1</es.version>
     </properties>
 
 
@@ -245,37 +246,44 @@
                 <version>3.1.15</version>
             </dependency>
 
-            <!-- poi office start-->
-            <!--<dependency>-->
-                <!--<groupId>org.apache.poi</groupId>-->
-                <!--<artifactId>poi</artifactId>-->
-                <!--<version>${poi.version}</version>-->
-            <!--</dependency>-->
-            <!--<dependency>-->
-                <!--<groupId>org.apache.poi</groupId>-->
-                <!--<artifactId>poi-ooxml</artifactId>-->
-                <!--<version>${poi.version}</version>-->
-            <!--</dependency>-->
-            <!--<dependency>-->
-                <!--<groupId>org.apache.poi</groupId>-->
-                <!--<artifactId>poi-ooxml-schemas</artifactId>-->
-                <!--<version>${poi.version}</version>-->
-            <!--</dependency>-->
-            <!-- poi office end -->
 
-            <!-- logback+slf4j -->
-            <!--<dependency>-->
-                <!--<groupId>org.slf4j</groupId>-->
-                <!--<artifactId>jcl-over-slf4j</artifactId>-->
-                <!--<version>${jcl.slf4j.version}</version>-->
-            <!--</dependency>-->
+            <dependency>
+                <groupId>org.elasticsearch</groupId>
+                <artifactId>elasticsearch</artifactId>
+                <version>${es.version}</version>
+            </dependency>
 
-            <!--<dependency>-->
-                <!--<groupId>ch.qos.logback</groupId>-->
-                <!--<artifactId>logback-core</artifactId>-->
-                <!--<version>${logback.version}</version>-->
-            <!--</dependency>-->
-
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+                <scope>provided</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.elasticsearch.client</groupId>
+                <artifactId>elasticsearch-rest-high-level-client</artifactId>
+                <version>${es.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.elasticsearch.client</groupId>
+                <artifactId>elasticsearch-rest-client</artifactId>
+                <version>${es.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-core</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-annotations</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.fasterxml.jackson.core</groupId>
+                <artifactId>jackson-databind</artifactId>
+                <version>${jackson.version}</version>
+            </dependency>
         </dependencies>
 
     </dependencyManagement>

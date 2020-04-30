@@ -9,6 +9,8 @@ import com.learn.forever.common.utils.ParameterUtils;
 import com.learn.forever.core.service.RedisService;
 import com.learn.forever.core.spi.SeedSpi;
 import com.learn.forever.core.template.AbstractResultTemplate;
+import com.learn.forever.damin.Person;
+import com.learn.forever.service.EsService;
 import com.learn.forever.web.utils.ExcelUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.dubbo.config.annotation.Reference;
@@ -57,10 +59,24 @@ public class Test {
     @Reference
     private ImageRpc imageRpc;
 
+    @Autowired
+    private EsService esService;
+
     private final static String url="http://ebizdemo.datasink.sensorsdata.cn/sa?project=default&token=******";
 
     @Autowired
     private RedisService redisService;
+
+    @GetMapping("insert")
+    public void getByes(Person person){
+        esService.add(person);
+    }
+
+    @GetMapping("getOne")
+    public Object getOne(Person person){
+        Person byUserId = esService.findByUserId(person);
+        return byUserId;
+    }
 
     @GetMapping("test")
     public Object test(){

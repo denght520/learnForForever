@@ -24,16 +24,39 @@
             <artifactId>learn-common</artifactId>
         </dependency>
 
-        <!--<dependency>-->
-            <!--<groupId>org.springframework.data</groupId>-->
-            <!--<artifactId>spring-data-elasticsearch</artifactId>-->
-            <!--<version>3.2.3.RELEASE</version>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>com.bluewhale.seed</groupId>
+            <artifactId>seed-client</artifactId>
+        </dependency>
+
 
         <dependency>
-            <groupId>org.elasticsearch.plugin</groupId>
-            <artifactId>transport-netty3-client</artifactId>
-            <version>5.6.10</version>
+            <groupId>org.elasticsearch</groupId>
+            <artifactId>elasticsearch</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>elasticsearch-rest-high-level-client</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
         </dependency>
     </dependencies>
 </project>

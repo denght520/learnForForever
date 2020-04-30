@@ -30,8 +30,8 @@ spring:
     password: 12345678
   data:
     elasticsearch:
-      cluster-nodes:
-      cluster-name: my-application
+      cluster-nodes: esapi.bw365.net:9200
+      cluster-name: bw-es6-dev
       repositories:
         enabled: true
 
@@ -74,6 +74,11 @@ apollo:
 zkAddress: zk1.bw365.net
 zkPort: 2128
 
+
+
+elasticsearch:
+  port: 9200
+  host: esapi.bw365.net
 #zookeeperAddress: zk1.bw365.net:2181,zk2.bw365.net:2181,zk3.bw365.net:2181
 #
 #nameSpace: bw-job
